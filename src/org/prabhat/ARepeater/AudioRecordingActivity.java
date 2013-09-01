@@ -3,7 +3,6 @@ package org.prabhat.ARepeater;
 import java.io.File;
 import java.io.IOException;
 import android.app.Activity;
-import android.content.res.Configuration;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.os.Bundle;
@@ -128,22 +127,16 @@ public class AudioRecordingActivity extends Activity {
 		public void onClick(View v) {
 			switch (v.getId()) {
 			case R.id.btnStartRecording: {
-/*				Toast.makeText(AudioRecordingActivity.this, "Start Recording",
-						Toast.LENGTH_SHORT).show();*/
-
 				enableButtons(true);
 				enablePlayerButtons(false);
 				startRecording();
 				break;
 			}
 			case R.id.btnStopRecording: {
-/*				Toast.makeText(AudioRecordingActivity.this, "Stop Recording",
-						Toast.LENGTH_SHORT).show();*/
 				enableButtons(false);
 				enablePlayerButtons(true);
 				((Button) findViewById(R.id.btnStopPlay)).setEnabled(false);
 				stopRecording();
-
 				break;
 			}
 			case R.id.btnPlay: {
