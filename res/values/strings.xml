@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AudioRecordingActivity!</string>
+    <string name="app_info">An affirmation is a carefully formatted statement that should be repeated to ones 
+        self and written down frequently. 
+         For an affirmation to be effective, it needs to be present tense, positive, personal and specific.</string>
+    <string name="app_name">Affirmation</string>
+    <string name="choose_format_title">Choose Audio Format</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="audio_format">Format</string>
+    <string name="start_playing">Start Playing</string>
+    <string name="stop_playing">Stop Playing</string>
+
+</resources>
